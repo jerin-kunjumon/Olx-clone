@@ -14,4 +14,4 @@ const [postDetails,setPostDetails] = useState()
 }
 
 
-export default Post
+export default Post 

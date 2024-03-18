@@ -1,7 +1,7 @@
 import React, {useEffect,useState,useContext} from 'react';
 
 import './View.css';
-import PostContext from '../../store/PostContext';
+import { PostContext } from '../../store/PostContext';
 import { FirebaseContext } from '../../store/Context';
 function View() {
   const [userDetails,setUserDetails] = useState()
